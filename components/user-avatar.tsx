@@ -24,7 +24,7 @@ export default function UserAvatar() {
 
   const handleLogout = () => {
     logout();
-    router.push("/Login");
+    router.push("/");
   };
 
   return (

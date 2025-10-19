@@ -72,7 +72,7 @@ export default function RegisterPage() {
     },
     onSuccess: () => {
       toast.success("Registrasi berhasil! Silakan login.");
-      router.push("/Login");
+      router.push("/n");
     },
     onError: () => {
       toast.error("Registrasi gagal, coba lagi!");
